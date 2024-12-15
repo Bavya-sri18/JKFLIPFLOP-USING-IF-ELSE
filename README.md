@@ -79,3 +79,4 @@ module funct7 (j, k, clk, rst, q);
 
 
 **RESULTS**
+Thus,the code executed successfully.
