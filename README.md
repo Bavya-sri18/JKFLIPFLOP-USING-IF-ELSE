@@ -1,5 +1,7 @@
 # JKFLIPFLOP-USING-IF-ELSE
 
+**Date** 12/11/2024
+
 **AIM:** 
 
 To implement  JK flipflop using verilog and validating their functionality using their functional tables
@@ -48,7 +50,10 @@ step-6 Run the program
 
 **PROGRAM**
 
- Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by:Bavya Sri.B RegisterNumber: 24900078
+ Program for flipflops and verify its truth table in quartus using Verilog programming.
+ 
+ Developed by:Bavya Sri.B RegisterNumber: 24900078
+ 
 ```
 module funct7 (j, k, clk, rst, q);
   input j, k, clk, rst;
@@ -64,16 +69,15 @@ module funct7 (j, k, clk, rst, q);
       q <= 1; // Set
     else if (j == 1 && k == 1)
       q <= ~q; // Toggle
-  end
   endmodule
 ```
 
-**RTL LOGIC FOR FLIPFLOPS**
+**RTL**
 
 ![ex-7 output 1](https://github.com/user-attachments/assets/dcca319f-aff8-41f3-8071-b76f7427116b)
 
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+**Output**
 
 ![ex-7 output 2](https://github.com/user-attachments/assets/321ee9b8-7441-4675-9de9-a9feed1a9282)
 
