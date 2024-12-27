@@ -69,6 +69,7 @@ module funct7 (j, k, clk, rst, q);
       q <= 1; // Set
     else if (j == 1 && k == 1)
       q <= ~q; // Toggle
+  end
   endmodule
 ```
 
@@ -79,8 +80,8 @@ module funct7 (j, k, clk, rst, q);
 
 **Output**
 
-![ex-7 output 2](https://github.com/user-attachments/assets/321ee9b8-7441-4675-9de9-a9feed1a9282)
+![image](https://github.com/user-attachments/assets/4652a712-eced-4b29-80a5-b707d78b0c6a)
 
 
-**RESULTS**
+**RESULT**
 Thus,the code executed successfully.
